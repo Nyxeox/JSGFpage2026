@@ -1,11 +1,136 @@
 <!DOCTYPE html>
 <html>
+    <style>
+        header
+        {
+            margin: 0%;
+            padding: 0%;
+        }
+
+        body
+        {
+            margin: 0%;
+            padding: 0%;
+        }
+
+        h2, p 
+        {
+            margin: 10px;
+        }
+
+        ul
+        {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333333;
+            display: flex;
+            position: sticky;
+            top: 0;
+        }
+
+        ul li
+        {
+            float: left;
+            border-right: 1px solid white;
+        }
+
+        ul li:last-child
+        {
+            margin-left: auto;
+            border-right: none;
+            border-left: 1px solid white;
+        }
+
+        ul li a
+        {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        ul li a:hover:not(.active)
+        {
+            background-color: #111111;
+        }
+
+        ul li a.active
+        {
+            background-color: #04AA6D;
+        }
+    </style>
     <head>
+        <script src="test.js"></script>
         <title>Page Title</title>
     </head>
     <body>
-        <h1>First Level Heading</h1>
-        <p>Opening paragraph.</p>
-        <a href= "Week1/hello.html">Text card</a>
+        <header>
+            <div style="background-color: blue; padding: 0%; height: 50px; margin: 0px;"></div>
+        </header>
+        <ul>
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="Week1/hello.html">Test Card</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="">A secret fourth thing</a></li>
+            <li><a href="">About</a></li>
+        </ul>
+        <div style="margin-left: 10px;">
+            <h1>First Level Heading</h1>
+            <p>Opening paragraph.</p>
+            <a id="button1" onmouseover="buttonHover(id)" onmouseout="buttonReset(id)" href= "Week1/hello.html">Text card</a>
+            <p>text</p>
+            <p>text</p>
+            <p>text</p>
+            <p>text</p>
+            <p>text</p>
+            <p>text</p>
+            <p>text</p>
+            <p>text</p>
+            <p>text</p>
+            <p>text</p>
+            <p>text</p>
+            <p>text</p>
+            <p>text</p>
+            <p>text</p>
+            <p>text</p>
+            <p>text</p>
+            <p>text</p>
+            <p>text</p>
+            <p>text</p>
+            <p>text</p>
+            <p>text</p>
+            <p>text</p>
+            <p>text</p>
+            <p>text</p>
+            <p>text</p>
+            <p>text</p>
+            <p>text</p>
+            <p>text</p>
+            <p>text</p>
+            <p>text</p>
+            <p>text</p>
+            <p>text</p>
+            <p>text</p>
+            <p>text</p>
+            <p>text</p>
+            <p>text</p>
+            <p>text</p>
+            <p>text</p>
+            <p>text</p>
+            <p>text</p>
+            <p>text</p>
+            <p>text</p>
+            <p>text</p>
+            <p>text</p>
+            <p>text</p>
+            <p>text</p>
+            <p>text</p>
+            <p>text</p>
+            <p>text</p>
+            <p>text</p>
+        </div>
     </body>
 </html>
